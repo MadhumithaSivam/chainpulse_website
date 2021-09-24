@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="styles.css">
+
+        <title>On chain data</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="header">
+            <div class="header__container">
+                <img src="CP_white@2x.png" class="header__img" id="white">
+
+                <a href="#" class="header__logo">On-chain data</a>
+                <img src="moon.png" id="icon">
+            </div>
+        </header>
+
+        <!--========== NAV ==========-->
+        <div class="nav" id="navbar">
+            <nav class="nav__container">
+                <div>
+                    <a href="#" class="nav__link nav__logo">
+                        <i class='bx bx-compass nav__icon' ></i>
+                        <span class="nav__logo-name">On-chain data</span>
+                    </a>
+                    <a href="#" class="nav__link nav__logo">
+                    <div class="header__search">
+                        
+                        <input type="search" placeholder="Search" class="header__input">
+                        <i class='bx bx-search header__icon'></i>
+                    </div>
+                    </a>
+
+                    <div class="nav__list">
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Sentiment</h3>
+
+                            
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class='bx bx-compass nav__icon' ></i>
+                                    <span class="nav__name">Sentiment</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="#" class="nav__dropdown-item">1.Parametric long-term supply</a>
+                                        <a href="#" class="nav__dropdown-item">2.Long-term supply in profit</a>
+                                        <a href="#" class="nav__dropdown-item">3.Long-term supply in loss</a>
+                                        <a href="#" class="nav__dropdown-item">4.Ratio of circ. supply in profit</a>
+                                        <a href="#" class="nav__dropdown-item">5.Ratio of circ. supply in loss</a>
+                                        <a href="#" class="nav__dropdown-item">6.HODL waves</a>
+                                        <a href="#" class="nav__dropdown-item">7.Realised cap HODL waves</a>
+                                        <a href="#" class="nav__dropdown-item">8.Realised and delta caps</a>
+                                        <a href="#" class="nav__dropdown-item">9.Liveliness</a>
+                                        <a href="#" class="nav__dropdown-item">10.Hodled or lost coins</a>
+                                        <a href="#" class="nav__dropdown-item">11.Hodler net position change</a>
+                                        <a href="#" class="nav__dropdown-item">12.SOPR</a>
+                                        <a href="#" class="nav__dropdown-item">13.Long-term SOPR family</a>
+                                        <a href="#" class="nav__dropdown-item">14.Short-term SOPR family</a>
+                                        <a href="#" class="nav__dropdown-item">15.Short-term MVRV family</a>
+                                        <a href="#" class="nav__dropdown-item">16.Spent tx outputs</a>
+                                        <a href="#" class="nav__dropdown-item">17.Spent old outputs (count profile)</a>
+                                        <a href="#" class="nav__dropdown-item">18.Spent old outputs (value profile)</a>
+                                        <a href="#" class="nav__dropdown-item">19.#UTXO</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Addresses</h3>
+    
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class='bx bx-compass nav__icon' ></i>
+                                    <span class="nav__name">Addresses</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="#" class="nav__dropdown-item">1.Linear composition of realised cap</a>
+                                        <a href="#" class="nav__dropdown-item">2.Realised cap composition weights</a>
+                                        <a href="#" class="nav__dropdown-item">3.Supply distribution in A addr.</a>
+                                        <a href="#" class="nav__dropdown-item">4.Supply distribution in addr.</a>
+                                        <a href="#" class="nav__dropdown-item">5.Specific addresses count</a>
+                                        <a href="#" class="nav__dropdown-item">6.Addresses count of non-zero balance</a>
+                                        <a href="#" class="nav__dropdown-item">7.Ratio of addresses in profit</a>
+                                        <a href="#" class="nav__dropdown-item">8.Addresses in loss.</a>
+                                        <a href="#" class="nav__dropdown-item">9.Active addresses</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="nav__items">
+                                <h3 class="nav__subtitle">UTXO histograms</h3>
+        
+                                <div class="nav__dropdown">
+                                    <a href="#" class="nav__link">
+                                        <i class='bx bx-compass nav__icon' ></i>
+                                        <span class="nav__name">UTXO histograms</span>
+                                        <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                    </a>
+    
+                                    <div class="nav__dropdown-collapse">
+                                        <div class="nav__dropdown-content">
+                                            <a href="#" class="nav__dropdown-item">1.UTXO price hist.</a>
+                                            <a href="#" class="nav__dropdown-item">2.UTXO price hist. change</a>
+                                        </div>
+                                    </div>
+    
+                                </div>                            
+
+                                <div class="nav__items">
+                                    <h3 class="nav__subtitle">Miners</h3>
+            
+                                    <div class="nav__dropdown">
+                                        <a href="#" class="nav__link">
+                                            <i class='bx bx-compass nav__icon' ></i>
+                                            <span class="nav__name">Miners</span>
+                                            <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                        </a>
+        
+                                        <div class="nav__dropdown-collapse">
+                                            <div class="nav__dropdown-content">
+                                                <a href="#" class="nav__dropdown-item">1.Miners unspent supply</a>
+                                                <a href="#" class="nav__dropdown-item">2.Miners unspent supply histogram</a>
+                                                <a href="#" class="nav__dropdown-item">3.Miners unspent tx outputs count</a>
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                    <div class="nav__items">
+                                        <h3 class="nav__subtitle">Scripts</h3>
+                
+                                        <div class="nav__dropdown">
+                                            <a href="#" class="nav__link">
+                                                <i class='bx bx-compass nav__icon' ></i>
+                                                <span class="nav__name">Scripts</span>
+                                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                            </a>
+            
+                                            <div class="nav__dropdown-collapse">
+                                                <div class="nav__dropdown-content">
+                                                    <a href="#" class="nav__dropdown-item">1.UTXO script types count</a>
+                                                    <a href="#" class="nav__dropdown-item">2.UTXO script types value</a>
+                                                    <a href="#" class="nav__dropdown-item">3.OP_RETURN scripts count</a>
+                                                    <a href="#" class="nav__dropdown-item">4.OP_RETURN scripts value</a>
+                                                    <a href="#" class="nav__dropdown-item">5..OP_RETURN scripts size</a>
+                                                </div>
+                                            </div>
+            
+                                        </div>
+                        </div>
+                    </div>
+                  </div>
+            </nav>
+        </div>
+
+        <!--========== CONTENTS ==========-->
+        <main>
+            <section>
+                <p>Chart goes here</p>
+            </section>
+        </main>
+
+        <!--========== MAIN JS ==========-->
+        <script src="main.js"></script>
+    </body>
+</html>
